@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: securepasslib
+Version: 0.1.0
+Summary: Password validation and generation library
+Author: Tuan Nguyen
+Author-email: nguyenhuutuan1306@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
