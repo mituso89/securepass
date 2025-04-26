@@ -6,3 +6,4 @@ build
 *.pyc
 *.egg-info/
 .env
+securepasslib.egg-info

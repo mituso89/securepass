@@ -9,10 +9,10 @@ setup(
     long_description_content_type='text/markdown',
     author='Tuan Nguyen',
     author_email='nguyenhuutuan1306@gmail.com',
-    url='https://github.com/yourusername/securepasslib',  # replace with your GitHub repo
+    url='https://github.com/mituso89/securepasslib',  # replace with your GitHub repo
     project_urls={
-        'Documentation': 'https://github.com/yourusername/securepasslib',
-        'Source': 'https://github.com/yourusername/securepasslib',
+        'Documentation': 'https://github.com/mituso89/securepasslib',
+        'Source': 'https://github.com/mituso89/securepasslib',
     },
     classifiers=[
         'Programming Language :: Python :: 3',
