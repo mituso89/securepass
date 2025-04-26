@@ -57,3 +57,20 @@ def test_strength_scoring():
     assert validator.strength_score("Abcdef12") == (4, "Medium")
     assert validator.strength_score("tcdAbcd12!") == (5, "Strong")
     assert validator.strength_score("1234Abcd1234!@") == (6, "Very Strong")
+    
+    
+def test_entropy_calculation():
+    validator = Validator()
+    entropy = validator.calculate_entropy("Password123!")
+    assert entropy > 0
+
+def test_suggest_improvements():
+    validator = Validator()
+    suggestions = validator.suggest_improvements("abc")
+    assert len(suggestions) > 0
+
+def test_get_password_report_complete():
+    validator = Validator()
+    report = validator.get_password_report("password123")
+    assert "entropy_bits" in report
+    assert "suggestions" in report
