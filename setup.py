@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='securepasslib',
-    version='1.0.0',
+    version='1.0.1',
     packages=find_packages(),
     description='Secure password validation, strength analysis, generation, and breach checking library',
     long_description=open('README.md', encoding='utf-8').read(),
