@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='securepasslib',
-    version='1.0.2',
+    version='1.0.3',
     packages=find_packages(),
     description='Secure password validation, strength analysis, generation, and breach checking library',
     long_description=open('README.md', encoding='utf-8').read(),
@@ -11,8 +11,8 @@ setup(
     author_email='nguyenhuutuan1306@gmail.com',
     url='https://github.com/mituso89/securepass',  # replace with your GitHub repo
     project_urls={
-        'Documentation': 'https://github.com/mituso89/securepasslib',
-        'Source': 'https://github.com/mituso89/securepasslib',
+        'Documentation': 'https://github.com/mituso89/securepass',
+        'Source': 'https://github.com/mituso89/securepass',
     },
     classifiers=[
         'Programming Language :: Python :: 3',
