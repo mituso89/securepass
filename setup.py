@@ -11,7 +11,7 @@ setup(
     author_email='nguyenhuutuan1306@gmail.com',
     url='https://github.com/mituso89/securepass',  # replace with your GitHub repo
     project_urls={
-        'Documentation': 'https://github.com/mituso89/securepass',
+        'Documentation': 'https://github.com/mituso89/securepass/blob/main/docs/usage.md',
         'Source': 'https://github.com/mituso89/securepass',
     },
     classifiers=[
